@@ -10,36 +10,74 @@
     <header id="header">
         <img id="header-img" src="ned-stark.jpeg" alt="Ned Stark standing with his sword">
         <h1>Stark's Ice</h1>
-        <img src="ice.jpeg" alt="Three melty ice cubes">
         <h2>So cold it might cut your head off</h2>
         <nav id="nav-bar">
             <ul>
-                <a href="#"><li class="nav-link">History</li></a>
-                <a href="#"><li class="nav-link">Production</li></a>
+                <a href="#history"><li class="nav-link">History</li></a>
+                <a href="#production"><li class="nav-link">Production</li></a>
                 <a href="#"><li class="nav-link">Order Ice</li></a>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>Our History</h2>
-        <p>The Stark's of Winterfell can trace their lineage back to the first men.
-            Our proud house has lived in this icy climate for hundreds of years.
-            It is more than our furs and hot springs that keep us warm during
-            the long winters, it is the need of our southern customers for our
-            prized ice that keeps our northern hearts ablaze!
-        </p>
-        <p>
-            What would an Dornish Venom-tini be without it's signature
-            red ice cubes? SWILL THATS WHAT! Do you think that the high lords
-            and ladies of the red-keep would enjoy their wines half so much
-            as they do when they are chilled by the ice of Winterfell? NAY!
-        </p>
-        <p>
-            Our house has provided solid icy-ice to those of a southern persuasion
-            for hundreds of years and we will continue to do so for hundreds more!
-        </p>
-        <h3>Don't believe us? Let Ned explain in more detail</h3>
-        <video 
+        <div id="history">
+            <h2>Our History</h2>
+            <p>The Stark's of Winterfell can trace their lineage back to the first men.
+                Our proud house has lived in this icy climate for hundreds of years.
+                It is more than our furs and hot springs that keep us warm during
+                the long winters, it is the need of our southern customers for our
+                prized ice that keeps our northern hearts ablaze!
+            </p>
+            <p>
+                What would an Dornish Venom-tini be without it's signature
+                red ice cubes? SWILL THATS WHAT! Do you think that the high lords
+                and ladies of the Red Keep would enjoy their wines half so much
+                as they do when they are chilled by the ice of Winterfell? NAY!
+            </p>
+            <p>
+                Our house has provided solid icy-ice to those of a southern persuasion
+                for hundreds of years and we will continue to do so for hundreds more!
+            </p>
+            <h3>Don't believe us? Let Ned explain in more detail:</h3>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PTzbOA6cTYM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div id="production">
+            <h2>How our Ice is Made</h2>
+            <img src="ice.jpeg" alt="Three melty ice cubes">
+            <p>For the commoners out there: ice is made from frozen water. Therefore
+                in order to make the best ice we must start with the best water.
+            </p>
+            <p>It may be known to some of you that parts of the Castle Winterfell are heated by water
+                from a pristine hot spring. When this water has cooled down during its journey through
+                the castle walls it is filtered through screens of fine linen and then stored inside
+                insulated barrels.
+            </p>
+            <p>
+                Next the water is stored outside to freeze. The icy winds of the north see to this in a hurry.
+                Within a day's time the water is frozen solid. Within three days the temperature is so cold
+                that it will take a month sitting in the blinding sun for it to warm up enough to begin to melt!
+            </p>
+            <p>
+                After the three day freezing period the insulated barrels are loaded into an insulated carriage
+                where they will begin their journey southward. We focus on fulfilling orders but always have
+                extra barrels in case we come upon a Southern Inn or Castle with a need for Stark's Ice!
+            </p>
+        </div>
+        <div id="order">
+            <h2>Do You Need Stark's Ice?</h2>
+            <p>Placing an order has never been easier! Enter your email and we will contact you immediately!</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <div id="email-form">
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email" placeholder="email please">
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="Submit" class="button">
+                </div>
+
+            </form>
+
+        </div>
     </main>
     
 </body>
